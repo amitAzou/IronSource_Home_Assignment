@@ -1,0 +1,36 @@
+{
+  "name": "surprise_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec npm run babel-node -- server.js",
+    "test": "mocha",
+    "babel-node": "babel-node --presets='@babel/preset-env'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "@babel/runtime": "^7.15.3",
+    "babel-jest": "^27.0.6",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "mocha": "^9.0.3",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.1.5"
+  }
+}
